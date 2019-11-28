@@ -11,6 +11,7 @@ before_install:
   - cd my-awesome-presentation
   - echo "source 'https://rubygems.org'" > GemFile
   - echo "gem 'asciidoctor-revealjs'" > GemFile
+  - ls -a
   - bundle config --local github.https true
   - bundle --path=.bundle/gems --binstubs=.bundle/.bin
 
